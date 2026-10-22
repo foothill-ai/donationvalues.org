@@ -8,3 +8,10 @@ Free, community-maintained donation value dataset with a planned website and mob
 - Do not commit private correspondence, personal information, or secrets.
 - Keep the initial architecture simple: Git-maintained data and static downloads. Firebase Hosting is recommended but has not been provisioned.
 - Update this file when the project adopts implementation tools and validation commands.
+
+## Hosting setup
+
+- Static landing page: `public/`. Firebase configuration: `firebase.json`.
+- See `docs/HOSTING.md` for verified setup status, admin prerequisites, and deployment checks. Infrastructure has not been provisioned yet.
+- Always specify `--project` explicitly until the actual project ID is verified.
+- Local check: `firebase emulators:start --only hosting --project demo-donationvalues`.
