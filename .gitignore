@@ -1,0 +1,14 @@
+.DS_Store
+node_modules/
+build/
+dist/
+.firebase/
+*.log
+__pycache__/
+.kotlin/
+*.app/
+.claude/worktrees/
+design-review/
+.env
+.env.*
+!.env.example
